@@ -1,8 +1,8 @@
-# steve-cargo-tech-challenge
-
 when your on a long pairing session with a coworker debugging shitty code and you finally git blame showing that it's your coworkers code.
 
 ![Alt Text](https://github.com/scorrea310/steve-cargo-tech-challenge/raw/main/no.gif)
+
+# steve-cargo-tech-challenge
 
 ## Prerequisites
 - have python version 3.3 or later on your computer.
@@ -18,5 +18,5 @@ when your on a long pairing session with a coworker debugging shitty code and yo
 1. cd into problem-2 folder
 2. run `terraform init` to initilize terraform and aws provider
 3. run `terraform plan` to check you're not going to burn down the world.
-4. run `terraform apply` too apply terraform changes. Don't be that dummy senior engineer you told me about.
+4. run `terraform apply` to apply terraform changes. Don't be that dummy senior engineer you told me about.
 5. run `terraform destroy` to destroy resources and so that your wallet doesn't get destroyed.
