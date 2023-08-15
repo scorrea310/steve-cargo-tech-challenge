@@ -1,4 +1,4 @@
-when your on a long pairing session with a coworker debugging shitty code and you finally git blame showing that it's your coworkers code.
+when you're in a long pairing session with a coworker debugging shitty code and you finally git blame showing that it's your coworkers code.
 
 ![Alt Text](https://github.com/scorrea310/steve-cargo-tech-challenge/raw/main/no.gif)
 
