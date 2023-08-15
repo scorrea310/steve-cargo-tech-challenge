@@ -7,6 +7,7 @@ when you're in a long pairing session with a coworker debugging shitty code and 
 ## Prerequisites
 - have python version 3.3 or later on your computer.
 - Have Terraform installed on your computer.
+- Have AWS cli on your computer and have configured your aws account with `aws configure`
   
 ## problems 1 and 3  
 1. Run problems 1 and 3 by cd'ing into the problems-1-and-3 folder.
