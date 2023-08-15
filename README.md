@@ -1,6 +1,6 @@
 # steve-cargo-tech-challenge
 
-![](https://github.com/scorrea310/steve-cargo-tech-challenge/no.gif)
+![Alt Text](https://github.com/scorrea310/steve-cargo-tech-challenge/raw/main/no.gif)
 
 ## Prerequisites
 - have python version 3.3 or later on your computer.
