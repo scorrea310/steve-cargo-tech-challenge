@@ -10,5 +10,5 @@
 1. cd into problem-2 folder
 2. run `terraform init` to initilize terraform and aws provider
 3. run `terraform plan` to check you're not going to burn down the world.
-4. run `terraform apply` too apply terraform changes. Don't be that dummy senior engineer you told me about. 
-
+4. run `terraform apply` too apply terraform changes. Don't be that dummy senior engineer you told me about.
+5. run `terraform destroy` to destroy resources and so that your wallet doesn't get destroyed.
