@@ -1,5 +1,8 @@
 # steve-cargo-tech-challenge
-## problems 1 and 3
+## Prerequisites
+- have python version 3.3 or later on your computer.
+  
+## problems 1 and 3  
 1. Run problems 1 and 3 by cd'ing into the problems-1-and-3 folder.
 2. create virtual env using `python3 -m venv .venv`
 3. start virtual env using `source .venv/bin/activate`
