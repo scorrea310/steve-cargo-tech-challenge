@@ -8,7 +8,7 @@ when you're in a long pairing session with a coworker debugging shitty code and 
 - have python version 3.3 or later on your computer.
 - Have Terraform installed on your computer.
 - Have AWS cli on your computer and have configured your aws account with `aws configure`
-  
+- git clone this repo with `git clone https://github.com/scorrea310/steve-cargo-tech-challenge.git`  
 ## problems 1 and 3  
 1. Run problems 1 and 3 by cd'ing into the problems-1-and-3 folder.
 2. create virtual env using `python3 -m venv .venv`
