@@ -3,7 +3,9 @@ import datetime
 
 this_is_a_shitty_variable_name_and_i_hate_when_other_people_do_this = "us-west-1"
 
-seven_days = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=7)
+seven_days_ago = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(
+    days=7
+)
 
 ec2_client = boto3.client(
     "ec2",
@@ -25,7 +27,7 @@ for instance in instances:
     print(f"Instance ID: {instance_id}")
     print(f"Launched {ec2_launch_time}")
 
-    if ec2_launch_time < seven_days:
+    if ec2_launch_time < seven_days_ago:
         print("instance was created more than 7 days ago.")
         ec2_client.stop_instances(InstanceIds=[instance_id])
     else:
