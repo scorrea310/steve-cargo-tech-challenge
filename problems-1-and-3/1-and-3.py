@@ -1,6 +1,5 @@
 import boto3
 import datetime
-import pytz
 
 this_is_a_shitty_variable_name_and_i_hate_when_other_people_do_this = "us-west-1"
 
@@ -21,7 +20,7 @@ for reservation in response["Reservations"]:
 
 for instance in instances:
     instance_id = instance["InstanceId"]
-    ec2_launch_time = instance["LaunchTime"].astimezone(pytz.utc)
+    ec2_launch_time = instance["LaunchTime"]
 
     print(f"Instance ID: {instance_id}")
     print(f"Launched {ec2_launch_time}")
